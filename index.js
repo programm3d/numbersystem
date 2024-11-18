@@ -4,12 +4,12 @@ const numbers = [
 
   //Functions to check numbers in an array is even or odd
 
-function checkEvenOdd(brr){
-    for(let i =0; i<brr.length;i++){
-        if (brr[i] % 2 == 0){
-            console.log(brr[i] + " is Even");
+function checkEvenOdd(arr){
+    for(let i =0; i<arr.length;i++){
+        if (arr[i] % 2 == 0){
+            console.log(arr[i] + " is Even");
         }else{
-            console.log(brr[i]+" is odd");
+            console.log(arr[i]+" is odd");
         }
     }
 }
