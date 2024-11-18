@@ -7,9 +7,9 @@ const numbers = [
 function checkEvenOdd(brr){
     for(let i =0; i<brr.length;i++){
         if (brr[i] % 2 == 0){
-            console.log(brr[i] + "is Even");
+            console.log(brr[i] + " is Even");
         }else{
-            console.log(brr[i]+"is odd");
+            console.log(brr[i]+" is odd");
         }
     }
 }
